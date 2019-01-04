@@ -117,11 +117,4 @@ void
 queueMsgInit() {
     pthread_mutex_init(&capi_mutex, NULL);
     pthread_mutex_init(&zip_mutex, NULL);
-
-    static msg_lst_t capi;
-    static msg_lst_t zip;
-//    capi_lst = &capi;
-//    zip_lst = &zip;
-//    capi_lst->next = NULL;
-//    zip_lst->next = NULL;
 }
